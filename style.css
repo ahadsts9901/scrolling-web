@@ -1,0 +1,95 @@
+*{
+    font-family: serif;
+}
+
+body{
+    font-size: 1em;
+    background-color: rgba(227, 230, 199, 0.3);
+    color:rgb(58, 65, 4) ;
+    padding: 1em;
+}
+
+img{
+    border: 2px solid rgb(58, 65, 4) ;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 3em;
+}
+
+.centerblock{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul{
+    padding-left: 0em;
+}
+
+a{
+    color: rgb(58, 65, 4) ;
+    text-decoration: none;
+}
+
+.nav{
+    border: 2px solid rgb(58, 65, 4) ;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    width: 4em;
+    text-align: center;
+    height: 1em;
+    display: block;
+}
+
+.nav2{
+    border: 2px solid rgb(58, 65, 4) ;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em;
+    width: 8em;
+    text-align: center;
+    height: 1em;
+    display: block;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav:hover{
+    border: 2px solid rgb(58, 65, 4) ;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em;
+    width: 4em;
+    text-align: center;
+    height: 1em;
+    background-color: rgb(58, 65, 4);
+}
+
+a:hover{
+    color: rgb(227, 230, 199) ;
+}
+
+.nav2:hover{
+    border: 2px solid rgb(58, 65, 4) ;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em;
+    width: 8em;
+    text-align: center;
+    height: 1em;
+    background-color: rgb(58, 65, 4);
+}
+
+hr{
+    border: 1px solid rgb(58, 65, 4);
+}
+
+.par{
+    font-weight: bold;
+}
