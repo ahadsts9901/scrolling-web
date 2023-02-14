@@ -32,6 +32,14 @@ nav ul{
     padding-left: 0em;
 }
 
+nav{
+    position: sticky;
+    z-index: 20;
+    top: 0;
+    background-color: rgb(246, 247, 238) ;
+    border-bottom: 2px solid rgb(58, 65, 4);
+}
+
 a{
     color: rgb(58, 65, 4) ;
     text-decoration: none;
